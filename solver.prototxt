@@ -1,0 +1,12 @@
+net: "./ktch/train.prototxt"
+max_iter: 30000
+
+lr_policy: "step"
+base_lr: 0.001
+stepsize: 15000
+iter_size: 4
+gama: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 15000
+snapshot_prefix: "./KTCH/model/"
